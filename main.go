@@ -11,8 +11,8 @@ var VERSION = "0.0.0-src" //set with ldflags
 
 func main() {
 	s := server.Server{
-		Title:      "Cloud Torrent",
-		Port:       3000,
+		Title:      "Nyaruko Cloud",
+		Port:       6655,
 		ConfigPath: "cloud-torrent.json",
 	}
 
